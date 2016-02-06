@@ -1,1 +1,81 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>To Do - Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+
+				<!-- start of collapsed navbar -->
+				<div class="navbar-header">
+					<button
+					  type="button"
+					  class="navbar-toggle collapsed"
+					  data-toggle="collapse"
+					  data-target="#main_navbar"
+					  aria-expanded="false">Open!</button>
+				</div>
+				<!-- end of collapsed navbar -->
+
+				<!-- start of un-collapsed navbar -->
+				<div id="main_navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</div>
+				<!-- end of un-collapsed navbar -->
+			</div>
+		</nav>
+
+		
+		<div class="container">
+			<h1>To Do List - Home Page</h1>
+
+			<ol class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+			</ol>
+
+			<p>
+				Click on the links below the <em>Title<em> heading to see a single
+				mock up that shows the details of the <em>To Do<em> item.
+			</p>
+			<table class="table table-striped table-bordered">
+				<caption>Tasks To Do (Unfinished)</caption>
+				<tr><th>Title</th><th>Description</th><th>Person<th></tr>
+					<tr>
+						<td><a href="details.html">Do The Shopping</a></td>
+						<td>Get almond milk, vegetables &amp; fruit.</td>
+						<td>John Smith<td>
+					</tr>
+					<tr>
+						<td><a href="details.html">Wash The Car</a></td>
+						<td>Get a full detail.</td>
+						<td>Jane Smith<td>
+					</tr>
+			</table>
+
+			<table class="table table-striped table-bordered">
+				<caption>Tasks Done (Finished)</caption>
+				<tr><th>Title</th><th>Description</th><th>Person<th></tr>
+				<tr>
+					<td><a href="details.html">Buy shoes</a></td>
+					<td>Running Shoes</td>
+					<td>Samantha Smith<td>
+				</tr>
+			</table>
+		</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>    
+	</body>
+
+</html>
