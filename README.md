@@ -1,3 +1,1 @@
-= carltonj2000.github.io
-
 Description of github projects and about me.
